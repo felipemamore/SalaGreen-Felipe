@@ -44,7 +44,7 @@ class Endereco:
         return self.cidade
 
 class Engenheiro(Pessoa):
-    def __init__(self,nome, idade, ocupacao, categoria, registro):
+    def __init__(self, nome, idade, ocupacao, categoria, registro):
         super().__init__(nome, idade, ocupacao)
         self.__categoria=categoria
         self.__registro=registro
@@ -58,6 +58,7 @@ class Engenheiro(Pessoa):
         return self.registro
 e=Engenheiro()
 e.setCategoria()
+
 
 
 
